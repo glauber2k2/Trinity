@@ -3,6 +3,7 @@ import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
 import Presentation from '../components/sessions/Presentation';
 import Projects from '../components/sessions/Projects';
+import Contact from '../components/sessions/Contact';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
 
       <Presentation />
       <Projects />
+      <Contact />
     </>
   );
 }
