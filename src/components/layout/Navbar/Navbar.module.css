@@ -1,5 +1,7 @@
 .nav {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .nav ul {
@@ -9,16 +11,14 @@
   font-size: 24px;
   text-transform: uppercase;
   list-style: none;
+  gap: 4rem;
 }
 
-.nav a {
+.nav p {
   color: #fff;
   text-decoration: none;
-}
-
-.nav a:visited {
-  color: #fff;
-  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
 }
 
 .nav button {

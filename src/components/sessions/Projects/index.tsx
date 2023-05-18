@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import Slider from '../../slides/Slider';
 
@@ -6,7 +7,7 @@ import styles from './Projects.module.css';
 
 export default function Projects() {
   return (
-    <div className={styles.containerProjects}>
+    <div className={styles.containerProjects} id='projects'>
       <div className={`${styles.box} ${styles.box1}`}>
         <h1>PROJETOS</h1>
 
@@ -51,7 +52,10 @@ export default function Projects() {
           <h1>NOSSA</h1>
           <h1>GALERIA</h1>
         </div>
-        <button>VAMOS LÁ</button>
+        <Link href='/Album' legacyBehavior>
+          <button>VAMOS LÁ</button>
+        </Link>
+
         <Image src='/images/project2.png' width={420} height={420} alt='' />
       </div>
     </div>

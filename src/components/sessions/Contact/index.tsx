@@ -4,7 +4,7 @@ import styles from './Contact.module.css';
 
 export default function Contact() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='contact'>
       <div></div>
       <div className={styles.contact}>
         <h1>Contact-me:</h1>
@@ -15,21 +15,27 @@ export default function Contact() {
         <div className={styles.redes}>
           <h2>Minhas redes:</h2>
 
-          <Link href='/' legacyBehavior>
-            <a>
+          <Link
+            href='https://www.instagram.com/trinityarquitetura_/'
+            legacyBehavior
+          >
+            <a target='_blank'>
               <InstagramLogo size={42} weight='bold' />
             </a>
           </Link>
 
-          <Link href='/' legacyBehavior>
-            <a>
+          <Link
+            href='https://api.whatsapp.com/send/?phone=5583996067361&text=Olá%2C+gostaria+de+fazer+um+orçamento%3F&type=phone_number&app_absent=0'
+            legacyBehavior
+          >
+            <a target='_blank'>
               <WhatsappLogo size={42} weight='bold' />
             </a>
           </Link>
         </div>
 
         <form
-          action='https://formsubmit.co/69079625f263f6861d9c3bff3ab50743'
+          action='https://formsubmit.co/igorpessoa.arq@gmail.com'
           method='POST'
         >
           <label htmlFor='email'>Seu Email:</label>

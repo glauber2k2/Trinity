@@ -10,21 +10,21 @@ export default function AlbumPaste({ name }: Props) {
     <div className={styles.container}>
       <h1>{name}</h1>
       <Image
-        src={`/images/${name}1.png`}
+        src={`/album/${name}/${name}1.jpg`}
         width={1280}
         height={1280}
         alt=''
         className={styles.photoNumberOne}
       />
       <Image
-        src={`/images/${name}2.png`}
+        src={`/album/${name}/${name}2.jpg`}
         width={1280}
         height={1280}
         alt=''
         className={styles.photoNumberTwo}
       />
       <Image
-        src={`/images/${name}1.png`}
+        src={`/album/${name}/${name}3.jpg`}
         width={1280}
         height={1280}
         alt=''

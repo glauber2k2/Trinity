@@ -14,9 +14,6 @@ export default function Presentation() {
         <h1>TRINITY</h1>
         <h2>Arquitetura</h2>
         <h3>Venha nos conhecer!</h3>
-        <button className={styles.containerBtn}>
-          <HandPointing size={32} /> <p>LETS GO</p>
-        </button>
       </div>
       <div className={styles.subContainer}>
         <h1>Conceito</h1>

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link as ScrollLink } from 'react-scroll';
 
 import styles from './Navbar.module.css';
 
@@ -7,21 +7,15 @@ export default function Navbar() {
     <div className={styles.nav}>
       <ul>
         <li>
-          <Link href='/' legacyBehavior>
-            <a>Projects</a>
-          </Link>
+          <ScrollLink to='projects' smooth={true} duration={1000}>
+            <p>Projects</p>
+          </ScrollLink>
         </li>
 
         <li>
-          <Link href='/' legacyBehavior>
-            <a>About</a>
-          </Link>
-        </li>
-
-        <li>
-          <Link href='/' legacyBehavior>
+          <ScrollLink to='contact' smooth={true} duration={1000}>
             <button>Contact</button>
-          </Link>
+          </ScrollLink>
         </li>
       </ul>
     </div>
