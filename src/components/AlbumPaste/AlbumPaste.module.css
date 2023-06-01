@@ -1,3 +1,18 @@
+.backHome {
+  display: flex;
+  width: 100%;
+}
+
+.backHome a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  gap: 0.5rem;
+  padding: 0.2rem;
+}
+
 .container {
   position: relative;
   padding: 2em;
