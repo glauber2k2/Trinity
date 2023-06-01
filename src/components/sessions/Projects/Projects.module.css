@@ -23,7 +23,6 @@
   grid-row: 1 / 3;
   grid-column: 1;
   justify-content: space-around;
-
   font-size: 30px;
 }
 
@@ -58,6 +57,7 @@
   grid-column: 2;
   align-items: start;
   justify-content: space-around;
+  gap: 3%;
 }
 
 .box3 p {
@@ -69,6 +69,7 @@
   letter-spacing: 15px;
   background: linear-gradient(to right, #504423, #c7a959, #ffd256);
   color: #000;
+  font-size: 2vw;
 }
 
 .box4 {
@@ -77,10 +78,9 @@
   border: 1px solid gray;
   grid-row: 2 / 2;
   grid-column: 3;
-  font-size: 12px;
-  gap: 1em;
+  font-size: 1.2vw;
+  padding-top: 4%;
   letter-spacing: 25px;
-  font-size: 25px;
   text-align: start;
   background: linear-gradient(to right, #000000, #201b05, #000000);
 }
@@ -106,7 +106,68 @@
   border-radius: 15px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 1.5vw;
   letter-spacing: 5px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .containerProjects {
+    padding: 2em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    font-size: 5vw;
+    padding: 0.5%;
+  }
+
+  .trinityLogo {
+    width: 100vw;
+    height: 45vw;
+  }
+
+  .chair {
+    width: 100vw;
+    height: 45vw;
+  }
+
+  .box2 {
+    width: 100%;
+  }
+
+  .box3 {
+    gap: 1rem;
+  }
+
+  .box3 p {
+    height: 6vh;
+    font-size: 5vw;
+  }
+
+  .box4 {
+    font-size: 2.8vw;
+    padding: 40% 2% 2% 2%;
+    letter-spacing: 20px;
+  }
+
+  .box4 img {
+    position: absolute;
+    top: -3%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: #000000;
+    padding: 10px;
+    object-fit: cover;
+    width: 80%;
+    height: 50%;
+  }
+
+  .box4 button {
+    height: 35px;
+    font-size: 4vw;
+  }
 }

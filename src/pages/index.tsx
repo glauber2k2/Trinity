@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Trinity Arquitetura</title>
         <meta
           name='description'
           content='O melhor arquiteto que você poderá ter'

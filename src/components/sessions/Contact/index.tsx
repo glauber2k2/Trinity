@@ -5,7 +5,7 @@ import styles from './Contact.module.css';
 export default function Contact() {
   return (
     <div className={styles.container} id='contact'>
-      <div></div>
+      <div className={styles.noDisplayMobile}></div>
       <div className={styles.contact}>
         <h1>Contact-me:</h1>
         <h3>
