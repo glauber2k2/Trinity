@@ -1,5 +1,8 @@
 import fs from 'fs';
 import AlbumPaste from '../../components/AlbumPaste';
+import Link from 'next/link';
+import { House } from 'phosphor-react';
+import styles from '../../components/AlbumPaste/AlbumPaste.module.css';
 
 interface FoldersProps {
   folders: string[];
@@ -32,6 +35,13 @@ export async function getStaticProps() {
 export default function Folders({ folders }: FoldersProps) {
   return (
     <>
+      <div className={styles.backHome}>
+        <Link href='/' legacyBehavior>
+          <a>
+            <House weight='fill' size={26} /> Inicio
+          </a>
+        </Link>
+      </div>
       <div>
         {folders.map((folder, index) => (
           <div key={index}>

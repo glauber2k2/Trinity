@@ -111,7 +111,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1250px) {
   .containerProjects {
     padding: 2em;
     width: 100%;
@@ -168,6 +168,6 @@
 
   .box4 button {
     height: 35px;
-    font-size: 4vw;
+    font-size: 2vw;
   }
 }

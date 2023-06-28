@@ -36,7 +36,7 @@
 }
 
 .container h3 {
-  margin-top: 55%;
+  margin-top: auto;
 }
 
 .container h2 {
@@ -60,16 +60,17 @@
 }
 
 .subContainer h1 {
-  font-size: 42px;
+  font-size: 2vw;
   position: relative;
   z-index: 1;
 }
 
 .igorImage {
   position: absolute;
-  top: 20%;
-  left: 20%;
-  height: 100%;
+  bottom: 0;
+  right: 0%;
+  height: 33rem;
+  width: 22rem;
   object-fit: scale-down;
   z-index: 2;
   filter: drop-shadow(5px 0px 10px rgba(0, 0, 0, 0.8));
@@ -142,9 +143,9 @@
 
   .igorImage {
     position: absolute;
-    top: 50vh;
+    bottom: 0;
     left: 40%;
-    height: 60%;
+    height: 18rem;
     width: 60%;
     object-fit: scale-down;
     z-index: 2;

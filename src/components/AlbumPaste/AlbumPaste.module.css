@@ -39,7 +39,7 @@
 
 .photoNumberOne {
   left: 35%;
-  width: 60vw;
+  width: 55vw;
   height: 30vw;
   z-index: 1;
 }
@@ -64,7 +64,7 @@
 .photoNumberTwo:hover,
 .photoNumberThree:hover {
   z-index: 4;
-  width: 65vw;
+  width: 60vw;
   height: 30vw;
 }
 
